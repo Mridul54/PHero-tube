@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-9/12 m-auto">
+    
+    <header class="mt-7 mb-4">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <img src="./Logo.png" alt="">
+                </div>
+                <div class="">
+                    <a onclick="sortDataDescendingByViews()" class="btn" id="sortByViewButton" >Sort by view</a>
+                    
+
+
+                </div>
+                <div class="navbar-end">
+                    <a onclick="BlogButton()" class="bg-[#FF1F3D]  text-white btn">Blog</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+       
+        <section>
+            <div class="tab-container border-b">
+                <div class="tabs p-5  m-auto text-center flex justify-center" id="tab-container">
+                    <!-- <a class="tab">Tab 1</a> 
+                    <a class="tab">Tab 2</a> 
+                    <a class="tab">Tab 3</a>
+                    <a class="tab">Tab 4</a> -->
+                  </div>
+            </div>
+             
+        </section>
+        <div id="card-container" class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="https://i.ibb.co/L1b6xSq/shape.jpg" alt="Shoes" /></figure>
+                <div class="my-5 mx-5 flex justify-around gap-4">
+                  <div>
+                    <img class="w-24" src="./member3.png" alt="">
+                  </div>
+                  <div>
+                    <h3 class="text-xl font-bold">Building a Winning UX Strategy Using the Kano Model</h3>
+                    <p class="text-lg">Awlad Hossain</p>
+                    <p class="text-lg">91K views</p>
+                  </div>
+                  
+                </div>
+              </div> -->
+        </div> 
+    </main>
+    <script src="./js/phero-tube.js"></script>
+</body>
+</html>
